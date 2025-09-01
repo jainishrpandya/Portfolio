@@ -96,7 +96,7 @@ const Footer = () => {
                 href=""
                 className=''
                 >
-                    <img src="/public/images/logo.svg" width={40} height={40} alt="" className='logo' />
+                    <img src="/images/logo.svg" width={40} height={40} alt="" className='logo' />
                 </a>
 
                 <p className='text-zinc-500 text-sm '>
