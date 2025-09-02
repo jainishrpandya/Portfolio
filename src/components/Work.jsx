@@ -5,42 +5,36 @@ const Work = () => {
 
     const works = [
         {
-            imgSrc: '/images/project-1.jpg',
-            title: 'Full stack music app',
-            tags: ['API', 'MVC', 'Development'],
-            projectLink: 'https://musify-5al0.onrender.com/'
+          imgSrc: '/images/Project-inventory.png',
+          title: 'Inventory Management API',
+          tags: ['Spring Boot', 'PostgreSQL', 'JWT'],
+          projectLink: 'https://github.com/jainishrpandya/Inventory-Management-Springboot-.git'
         },
         {
-            imgSrc: '/images/project-2.jpg',
-            title: 'Free stock photo app',
-            tags: ['API', 'SPA'],
-            projectLink: 'https://pixstock-official.vercel.app/'
+          imgSrc: '/images/Project-sales.png',
+          title: 'Sales Content Generation Tool (Internship - Confidential)',
+          tags: ['AI', 'React', 'Node.js', 'PostgreSQL'],
         },
         {
-            imgSrc: '/images/project-3.jpg',
-            title: 'Recipe app',
-            tags: ['Development', 'API'],
-            projectLink: ''
+          imgSrc: '/images/Project-mcp.png',
+          title: 'MCP Trading Server',
+          tags: ['Zerodha API', 'Claude AI', 'Node.js', 'MCP'],
+          projectLink: 'https://github.com/jainishrpandya/Zerodha-MCP'
         },
         {
-            imgSrc: '/images/project-4.jpg',
-            title: 'Real state website',
-            tags: ['Web-design', 'Development'],
-            projectLink: 'https://github.com/codewithsadee-org/wealthome'
+          imgSrc: '/images/Project-bookcircle.png',
+          title: 'BookCircle – Social Platform',
+          tags: ['PERN Stack', 'JWT', 'Responsive'],
+          projectLink: 'https://github.com/jainishrpandya/Bookcircle-Decentralized-Book-Sharing-Platform'
         },
         {
-            imgSrc: '/images/project-5.jpg',
-            title: 'eCommerce website',
-            tags: ['eCommerce', 'Development'],
-            projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
-        },
-        {
-            imgSrc: '/images/project-6.jpg',
-            title: 'vCard Personal portfolio',
-            tags: ['Web-design', 'Development'],
-            projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
-        },
-    ];
+          imgSrc: '/images/Project-chat.png',
+          title: 'Real-Time Chat Application',
+          tags: ['MERN', 'Socket.io', 'Authentication'],
+          projectLink: 'https://github.com/jainishrpandya/DOTBOX-Web-based-Chat-Application'
+        }
+      ];
+      
 
     return (
         <section

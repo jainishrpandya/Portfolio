@@ -13,7 +13,7 @@ const ButtonPrimary = ({
             <a
                 href={href}
                 target={target}
-                className={"btn btn-primmary " + classes}
+                className={"btn btn-primary " + classes}
             >
                 {label}
 

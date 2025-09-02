@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
         id="home"
-        className='pt-28 lg:pt-38'
+        className='pt-28 lg:pt-28'
     >
         <div className='container items-center lg:grid lg:grid-cols-2 lg:gap-10'>
             <div>
@@ -32,11 +32,12 @@ const Hero = () => {
                 </div>
 
                 <h2 className='headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10'>
-                Full Stack Developer crafting scalable apps with Java,PERN <br />  & a touch of AI.
+                Hi, I'm Jainish,<br /> a Full Stack Developer crafting scalable apps with Java,PERN <br />  & a touch of AI.
                 </h2>
 
                 <div className='flex items-center gap-3'>
-                    <ButtonPrimary 
+                    <ButtonPrimary
+                        href="https://drive.google.com/file/d/18h1S5ft1ERuEmadiIGwr-IaRdHprjPNB/view?usp=sharing"
                         label="Download CV"
                         icon="download"
                     />
@@ -50,11 +51,11 @@ const Hero = () => {
             </div>
 
             <div className='hidden lg:block'>
-                <figure className='w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden'>
+                <figure className='w-full max-w-[420px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden'>
                     <img 
                     src="/images/hero-banner-image.png"
-                    width={656}
-                    height={800}
+                    width={456}
+                    height={500}
                     alt="Jainish Pandya" 
                     className='w-full'/>
                 </figure>
